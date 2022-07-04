@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <judul>Bookshelf Apps</judul>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  
+  <body>
+    <nav class="navatas">
+      <div class="cc1">
+        <a class="navatas-nama" href="/">Bookshelf Apps</a>
+      </div>
+    </nav>
+  
+    <div class="pilihan cc1">
+      <input class="form-masukkan" type="text" placeholder="Temukan Buku" />
+      <button class="button button-utama" id="tambahBuku" type="button">+ <span>Tambah Buku</span></button>
+    </div>
+  
+    <div class="input-data cc1 hide">
+      <h3>Inputkan Data</h3>
+      <form>
+        <label for="judul">Judul buku</label>
+        <input class="form-masukkan" type="text" id="judul" required/>
+        <label for="jenis">Penulis</label>
+        <input class="form-masukkan" type="text" id="jenis" required/>
+        <label for="year">Tahun</label>
+        <input class="form-masukkan" type="number" id="year" required/>
+        <div class="checkbox">
+          <input type="checkbox" id="isCompleted" />
+          <label for="isCompleted">&nbsp;&nbsp;book Selesai dibaca</label>
+        </div>
+        <button class="button button-utama" type="submit">Simpan Sebagai Belum dibaca</button>
+      </form>
+    </div>
+  
+    <div class="cc1">
+      <h3>Belum Selesai Dibaca</h3>
+      <div class="list-book belum-dibaca"></div>
+    
+      <h3>Selesai Dibaca</h3>
+      <div class="list-book udah-dibaca"></div>
+    </div>
+  
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

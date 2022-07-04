@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+h3 {
+  color: rgba(255,255,255);
+  margin-bottom: .75rem;
+}
+p {
+  font-size: .9rem;
+}
+label {
+  font-size: small;
+  color: rgb(255,255,255);
+}
+body {
+  background: rgb(11, 22, 45);
+}
+.navatas {
+  width: 100%;
+  color: rgb(155,155,155);
+  background: rgb(3, 23, 66);
+  border-bottom: 1px solid rgb(23,35,64);
+  margin-bottom: 1.5rem;
+}
+.navatas > .cc1 {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navatas-nama {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(255,255,255);
+}
+.pilihan {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.input-data > form {
+  border: 1px solid rgb(40, 48, 66);
+  border-radius: .25rem;
+  color: rgb(115,115,115);
+  padding: .5rem .75rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  background: rgb(12,20,39);
+}
+.input-data > form > label {
+  margin-bottom: .5rem;
+}
+.input-data .checkbox {
+  margin-bottom: 1.5rem;
+}
+.input-data .button {
+  max-width: 15rem;
+  align-self: flex-start;
+  margin-bottom: .25rem;
+}
+.input-data .form-masukkan {
+  margin-bottom: 1rem;
+}
+.input-data.hide {
+  display: none;
+}
+.list-book {
+  border: 1px solid rgb(115,115,115);
+  border-radius: .25rem;
+  color: rgb(115,115,115);
+  padding: .5rem .75rem;
+  margin-bottom: 1rem;
+}
+.book {
+  color: rgb(200,200,200);
+  line-height: 2;
+}
+.book:not(:last-child) {
+  border-bottom: 1px solid rgb(115,115,115);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.book .button {
+  font-size: small;
+  padding: .3rem .5rem;
+  color: rgb(255,255,255);
+  text-shadow: 0px 1px 2px rgb(0,0,0);
+  margin-right: .25rem;
+}
+.form-masukkan {
+  max-width: 400px;
+  outline: none;
+  border-radius: .25rem;
+  border: 1px solid rgb(23,35,64);
+  padding: .5rem .75rem;
+  background: rgb(12,20,39);
+  color: rgb(255,255,255);
+}
+.form-masukkan:focus {
+  border-color: rgb(114,124,245);
+}
+.form-masukkan::placeholder {
+  color: rgb(200,200,200);
+}
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: .5rem .75rem;
+  border-radius: .25rem;
+}
+.button-utama {
+  background: rgb(75, 76, 86);
+  color: rgb(255,255,255);
+}
+.button-danger {
+  background: rgb(173, 27, 63);
+}
+.button-warning {
+  background: rgb(210, 191, 136);
+}
+.button-success {
+  background: rgb(48, 195, 112);
+}
+.checkbox {
+  display: flex;
+  font-size: small;
+  align-items: center;
+}
+.cc1 {
+  max-width: 720px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+@media(min-width:768px) {
+  .cc1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
